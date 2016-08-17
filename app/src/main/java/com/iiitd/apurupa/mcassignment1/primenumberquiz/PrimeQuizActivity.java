@@ -137,7 +137,7 @@ public class PrimeQuizActivity extends AppCompatActivity implements View.OnClick
         AlertDialog.Builder done_popup = new AlertDialog.Builder(this);
         done_popup.setTitle("Completed!!!");
         done_popup.setMessage(getString(R.string.ScoreMessage)+String.valueOf(score));
-        done_popup.setPositiveButton("OK",
+        done_popup.setPositiveButton("START OVER",
                 new DialogInterface.OnClickListener() {
 
                     public void onClick(DialogInterface dialog, int which) {
